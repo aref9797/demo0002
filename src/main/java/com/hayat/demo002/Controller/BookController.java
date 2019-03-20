@@ -20,7 +20,7 @@ public class BookController {
     {
         return bos.save(book);
     }
-    @GetMapping("/books")
+    @GetMapping("/booo")
     public Iterable<book> getall()
     {
         return bos.findAll();
